@@ -1,3 +1,4 @@
+#!/bin/bash
 install_homebrew() {
 	echo "#######################################"
 	echo "Checking for homebrew installation"
@@ -19,7 +20,7 @@ install_homebrew() {
 install_packages() {
 	echo "#######################################"
 	echo "Install packages"
-        echo "#######################################"
+    echo "#######################################"
 	brew tap caskroom/cask
 
 	brew cask install adoptopenjdk
