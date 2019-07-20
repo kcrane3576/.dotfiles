@@ -1,6 +1,9 @@
 #!/bin/bash
-# setup mac
+echo "#######################################"
+echo "setup mac"
+echo "#######################################"
 cp .bash_profile ~/.bash_profile
+sh setup_mac.sh
 source ~/.bash_profile
 
 echo "#######################################"
@@ -13,4 +16,3 @@ echo "#######################################"
 echo "setup git"
 echo "#######################################"
 sh setup_git.sh
-
