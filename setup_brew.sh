@@ -31,6 +31,7 @@ install_packages() {
 	brew install bash-completion
 
 	brew install ansible
+	brew install awscli
 }
 
 install_homebrew
