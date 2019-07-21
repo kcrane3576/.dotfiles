@@ -29,6 +29,8 @@ install_packages() {
 
 	brew install git
 	brew install bash-completion
+
+	brew install ansible
 }
 
 install_homebrew
